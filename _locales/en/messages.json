@@ -234,7 +234,7 @@
 		"description": "Checkbox to show only locally edited styles"
 	},
 	"manageText": {
-		"message": "Visit <a href='http:\/\/userstyles.org'>userstyles.org<\/a> for pre-made styles. Ask in <a href='http:\/\/forum.userstyles.org'>the forum<\/a> if you need help.",
+		"message": "Visit <a href='http:\/\/userstyles.org'>userstyles.org<\/a> for pre-made styles.",
 		"description": "Help text on the manage page"
 	},
 	"manageTitle": {
@@ -413,7 +413,7 @@
 		"description": "Label for toolbar pop-up that precedes the links to write a new style"
 	},
 	"writeStyleForURL": {
-		"message": "this URL",
+		"message": ".",
 		"description": "Text for link in toolbar pop-up to write a new style for the current URL"
 	}
 }
