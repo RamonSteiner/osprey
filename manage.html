@@ -5,8 +5,21 @@
 			body {
 				margin: 0;
 				font: 12px arial,sans-serif;
-                background: #272D31;
+                                background: #272D31;
+                                color: #fff;
 			}
+                        .button {
+                                background-color: #59646C;
+                                border: none;
+                                color: white;
+                                padding: 7px 14px;
+                                text-align: center;
+                                text-decoration: none;
+                                display: inline-block;
+                                margin: 4px 2px;
+                                cursor: pointer;
+                                font-size: 16px;
+                        }
 			a, a:visited {
 				color: #fff;
 				-webkit-transition: color 0.5s;
@@ -142,12 +155,12 @@
 				<h2 class="style-name" style="color: #fff"></h2>
 				<p class="applies-to" style="color: #fff"></p>
 				<p class="actions">
-					<a class="style-edit-link" href="edit.html?id="><button i18n-text="editStyleLabel"></button></a>
-					<button class="enable" i18n-text="enableStyleLabel"></button>
-					<button class="disable" i18n-text="disableStyleLabel"></button>
-					<button class="delete" i18n-text="deleteStyleLabel"></button>
-					<button class="check-update" i18n-text="checkForUpdate"></button>
-					<button class="update" i18n-text="installUpdate"></button>
+					<a class="style-edit-link" href="edit.html?id="><button class="button" i18n-text="editStyleLabel"></button></a>
+					<button class="enable button" i18n-text="enableStyleLabel"></button>
+					<button class="disable button" i18n-text="disableStyleLabel"></button>
+					<button class="delete button" i18n-text="deleteStyleLabel"></button>
+					<button class="check-update button" i18n-text="checkForUpdate"></button>
+					<button class="update button" i18n-text="installUpdate"></button>
 					<span class="update-note"></span>
 				</p>
 			</div>
@@ -170,12 +183,12 @@
 				<div><input id="manage.onlyEdited" type="checkbox"><label id="manage.onlyEdited-label" for="manage.onlyEdited" style="color: #fff;" i18n-text="manageOnlyEdited"></label></div>
 				<div><input id="search" type="search" i18n-placeholder="searchStyles"></div>
 			</fieldset>
-			<p><button id="check-all-updates" i18n-text="checkAllUpdates"></button></p>
+			<p><button class="button"id="check-all-updates" i18n-text="checkAllUpdates"></button></p>
 			<p>
-				<button id="apply-all-updates" class="hidden" style="color: #fff" i18n-text="applyAllUpdates"></button>
-				<span id="update-all-no-updates" class="hidden" style="color: #fff" i18n-text="updateAllCheckSucceededNoUpdate"></span>
+				<button id="apply-all-updates" class="hidden button" style="color: #fff" i18n-text="applyAllUpdates"></button>
+				<span id="update-all-no-updates" class="hidden button" style="color: #fff" i18n-text="updateAllCheckSucceededNoUpdate"></span>
 			</p>
-			<p><a href="edit.html"><button id="add-style-label" i18n-text="addStyleLabel"></button></a></p>
+			<p><a href="edit.html"><button id="add-style-label" class="button" i18n-text="addStyleLabel"></button></a></p>
 			<div id="options">
 				<h2 id="options-heading" style="color: #fff" i18n-text="optionsHeading"></h2>
 				<input id="show-badge" type="checkbox"><label id="show-badge-label" for="show-badge" style="color: #fff" i18n-text="prefShowBadge"></label>
