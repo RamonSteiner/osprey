@@ -1,5 +1,5 @@
 #osprey - a stylish fork (Chrome Only)
-
+Please check this github page every month or so for new updates!
 
 ##Info
 
