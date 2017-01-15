@@ -1,8 +1,8 @@
 {
-	"name": "Stylish",
-	"version": "1.4.0",
-	"description": "__MSG_description__",
-	"homepage_url": "https://userstyles.org",
+	"name": "osprey",
+	"version": "1.0.0",
+	"description": "fork of stylish",
+	"homepage_url": "https://github.com/jackcdk/osprey",
 	"manifest_version": 2,
 	"icons": {
 		"16": "16.png",
@@ -47,7 +47,7 @@
 			"19": "19w.png",
 			"38": "38w.png"
 		},
-		"default_title": "Stylish",
+		"default_title": "Osprey",
 		"default_popup": "popup.html"
 	},
 	"default_locale": "en"
