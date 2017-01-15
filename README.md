@@ -5,7 +5,7 @@
 
 This fork was made due to stylish being made into a botnet by it's new owners
 
-Please also note this osprey is only available in english at the moment
+Please also note that osprey is only available in english at the moment
 
 ##Download
 
