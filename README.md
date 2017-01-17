@@ -1,4 +1,7 @@
 #osprey - a stylish fork (Chrome Only)
+
+![osprey](https://raw.githubusercontent.com/JackCDK/osprey/master/128.png)
+
 Please check this github page every month or so for new updates!
 
 ##Info
