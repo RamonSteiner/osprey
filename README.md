@@ -1,4 +1,4 @@
-#osprey - a stylish fork (Chrome Only)
+#osprey - a stylish fork (chrome and chrome-like things only)
 
 ![osprey](https://raw.githubusercontent.com/JackCDK/osprey/master/128.png)
 
